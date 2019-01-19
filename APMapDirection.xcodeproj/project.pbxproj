@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048053862115DADB00BECF17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048053852115DADB00BECF17 /* AppDelegate.swift */; };
+		048053882115DADB00BECF17 /* APMapDirectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048053872115DADB00BECF17 /* APMapDirectionVC.swift */; };
+		0480538B2115DADB00BECF17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048053892115DADB00BECF17 /* Main.storyboard */; };
+		0480538D2115DADB00BECF17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0480538C2115DADB00BECF17 /* Assets.xcassets */; };
+		048053902115DADB00BECF17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0480538E2115DADB00BECF17 /* LaunchScreen.storyboard */; };
+		0480539B2115DADB00BECF17 /* APMapDirectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480539A2115DADB00BECF17 /* APMapDirectionTests.swift */; };
+		048053A62115DADB00BECF17 /* APMapDirectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048053A52115DADB00BECF17 /* APMapDirectionUITests.swift */; };
+		048053B42115DD3200BECF17 /* Google Direction-07674dbf8433.json in Resources */ = {isa = PBXBuildFile; fileRef = 048053B32115DD3200BECF17 /* Google Direction-07674dbf8433.json */; };
+		454F7B54E1B6D842B84EF946 /* Pods_APMapDirection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF8DA324B9AB3011AFDD66D /* Pods_APMapDirection.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		048053972115DADB00BECF17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0480537A2115DADB00BECF17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 048053812115DADB00BECF17;
+			remoteInfo = APMapDirection;
+		};
+		048053A22115DADB00BECF17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0480537A2115DADB00BECF17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 048053812115DADB00BECF17;
+			remoteInfo = APMapDirection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		048053822115DADB00BECF17 /* APMapDirection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APMapDirection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		048053852115DADB00BECF17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		048053872115DADB00BECF17 /* APMapDirectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APMapDirectionVC.swift; sourceTree = "<group>"; };
+		0480538A2115DADB00BECF17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0480538C2115DADB00BECF17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0480538F2115DADB00BECF17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		048053912115DADB00BECF17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048053962115DADB00BECF17 /* APMapDirectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APMapDirectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0480539A2115DADB00BECF17 /* APMapDirectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APMapDirectionTests.swift; sourceTree = "<group>"; };
+		0480539C2115DADB00BECF17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048053A12115DADB00BECF17 /* APMapDirectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APMapDirectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		048053A52115DADB00BECF17 /* APMapDirectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APMapDirectionUITests.swift; sourceTree = "<group>"; };
+		048053A72115DADB00BECF17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048053B32115DD3200BECF17 /* Google Direction-07674dbf8433.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Google Direction-07674dbf8433.json"; sourceTree = "<group>"; };
+		3503D32AE473A92F1E7A5CBB /* Pods-APMapDirection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APMapDirection.release.xcconfig"; path = "Pods/Target Support Files/Pods-APMapDirection/Pods-APMapDirection.release.xcconfig"; sourceTree = "<group>"; };
+		4CF8DA324B9AB3011AFDD66D /* Pods_APMapDirection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APMapDirection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A17DD000C8C062899DD3FDD /* Pods-APMapDirection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APMapDirection.debug.xcconfig"; path = "Pods/Target Support Files/Pods-APMapDirection/Pods-APMapDirection.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0480537F2115DADB00BECF17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454F7B54E1B6D842B84EF946 /* Pods_APMapDirection.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048053932115DADB00BECF17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0480539E2115DADB00BECF17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048053792115DADB00BECF17 = {
+			isa = PBXGroup;
+			children = (
+				048053842115DADB00BECF17 /* APMapDirection */,
+				048053992115DADB00BECF17 /* APMapDirectionTests */,
+				048053A42115DADB00BECF17 /* APMapDirectionUITests */,
+				048053832115DADB00BECF17 /* Products */,
+				FBD79F708B0ECC3B6DE7F61D /* Pods */,
+				08D56EF32C7DE3F270C8C0E1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		048053832115DADB00BECF17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				048053822115DADB00BECF17 /* APMapDirection.app */,
+				048053962115DADB00BECF17 /* APMapDirectionTests.xctest */,
+				048053A12115DADB00BECF17 /* APMapDirectionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		048053842115DADB00BECF17 /* APMapDirection */ = {
+			isa = PBXGroup;
+			children = (
+				048053B32115DD3200BECF17 /* Google Direction-07674dbf8433.json */,
+				048053852115DADB00BECF17 /* AppDelegate.swift */,
+				048053872115DADB00BECF17 /* APMapDirectionVC.swift */,
+				048053892115DADB00BECF17 /* Main.storyboard */,
+				0480538C2115DADB00BECF17 /* Assets.xcassets */,
+				0480538E2115DADB00BECF17 /* LaunchScreen.storyboard */,
+				048053912115DADB00BECF17 /* Info.plist */,
+			);
+			path = APMapDirection;
+			sourceTree = "<group>";
+		};
+		048053992115DADB00BECF17 /* APMapDirectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				0480539A2115DADB00BECF17 /* APMapDirectionTests.swift */,
+				0480539C2115DADB00BECF17 /* Info.plist */,
+			);
+			path = APMapDirectionTests;
+			sourceTree = "<group>";
+		};
+		048053A42115DADB00BECF17 /* APMapDirectionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				048053A52115DADB00BECF17 /* APMapDirectionUITests.swift */,
+				048053A72115DADB00BECF17 /* Info.plist */,
+			);
+			path = APMapDirectionUITests;
+			sourceTree = "<group>";
+		};
+		08D56EF32C7DE3F270C8C0E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CF8DA324B9AB3011AFDD66D /* Pods_APMapDirection.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBD79F708B0ECC3B6DE7F61D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A17DD000C8C062899DD3FDD /* Pods-APMapDirection.debug.xcconfig */,
+				3503D32AE473A92F1E7A5CBB /* Pods-APMapDirection.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		048053812115DADB00BECF17 /* APMapDirection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048053AA2115DADB00BECF17 /* Build configuration list for PBXNativeTarget "APMapDirection" */;
+			buildPhases = (
+				3562E233B17CDAD05759AE9D /* [CP] Check Pods Manifest.lock */,
+				0480537E2115DADB00BECF17 /* Sources */,
+				0480537F2115DADB00BECF17 /* Frameworks */,
+				048053802115DADB00BECF17 /* Resources */,
+				B1AC327EE5CF1752E3987FC5 /* [CP] Embed Pods Frameworks */,
+				0C57465EB489A6DA49AAE7FB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APMapDirection;
+			productName = APMapDirection;
+			productReference = 048053822115DADB00BECF17 /* APMapDirection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		048053952115DADB00BECF17 /* APMapDirectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048053AD2115DADB00BECF17 /* Build configuration list for PBXNativeTarget "APMapDirectionTests" */;
+			buildPhases = (
+				048053922115DADB00BECF17 /* Sources */,
+				048053932115DADB00BECF17 /* Frameworks */,
+				048053942115DADB00BECF17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				048053982115DADB00BECF17 /* PBXTargetDependency */,
+			);
+			name = APMapDirectionTests;
+			productName = APMapDirectionTests;
+			productReference = 048053962115DADB00BECF17 /* APMapDirectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		048053A02115DADB00BECF17 /* APMapDirectionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048053B02115DADB00BECF17 /* Build configuration list for PBXNativeTarget "APMapDirectionUITests" */;
+			buildPhases = (
+				0480539D2115DADB00BECF17 /* Sources */,
+				0480539E2115DADB00BECF17 /* Frameworks */,
+				0480539F2115DADB00BECF17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				048053A32115DADB00BECF17 /* PBXTargetDependency */,
+			);
+			name = APMapDirectionUITests;
+			productName = APMapDirectionUITests;
+			productReference = 048053A12115DADB00BECF17 /* APMapDirectionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0480537A2115DADB00BECF17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					048053812115DADB00BECF17 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+					048053952115DADB00BECF17 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 048053812115DADB00BECF17;
+					};
+					048053A02115DADB00BECF17 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 048053812115DADB00BECF17;
+					};
+				};
+			};
+			buildConfigurationList = 0480537D2115DADB00BECF17 /* Build configuration list for PBXProject "APMapDirection" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 048053792115DADB00BECF17;
+			productRefGroup = 048053832115DADB00BECF17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				048053812115DADB00BECF17 /* APMapDirection */,
+				048053952115DADB00BECF17 /* APMapDirectionTests */,
+				048053A02115DADB00BECF17 /* APMapDirectionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		048053802115DADB00BECF17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048053902115DADB00BECF17 /* LaunchScreen.storyboard in Resources */,
+				0480538D2115DADB00BECF17 /* Assets.xcassets in Resources */,
+				0480538B2115DADB00BECF17 /* Main.storyboard in Resources */,
+				048053B42115DD3200BECF17 /* Google Direction-07674dbf8433.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048053942115DADB00BECF17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0480539F2115DADB00BECF17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C57465EB489A6DA49AAE7FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-APMapDirection/Pods-APMapDirection-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-APMapDirection/Pods-APMapDirection-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3562E233B17CDAD05759AE9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-APMapDirection-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1AC327EE5CF1752E3987FC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-APMapDirection/Pods-APMapDirection-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GooglePlacesAPI/GooglePlacesAPI.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GooglePlacesAPI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-APMapDirection/Pods-APMapDirection-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0480537E2115DADB00BECF17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048053882115DADB00BECF17 /* APMapDirectionVC.swift in Sources */,
+				048053862115DADB00BECF17 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048053922115DADB00BECF17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0480539B2115DADB00BECF17 /* APMapDirectionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0480539D2115DADB00BECF17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048053A62115DADB00BECF17 /* APMapDirectionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		048053982115DADB00BECF17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 048053812115DADB00BECF17 /* APMapDirection */;
+			targetProxy = 048053972115DADB00BECF17 /* PBXContainerItemProxy */;
+		};
+		048053A32115DADB00BECF17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 048053812115DADB00BECF17 /* APMapDirection */;
+			targetProxy = 048053A22115DADB00BECF17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		048053892115DADB00BECF17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0480538A2115DADB00BECF17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0480538E2115DADB00BECF17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0480538F2115DADB00BECF17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		048053A82115DADB00BECF17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		048053A92115DADB00BECF17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		048053AB2115DADB00BECF17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A17DD000C8C062899DD3FDD /* Pods-APMapDirection.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GL2KD24SJM;
+				INFOPLIST_FILE = APMapDirection/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ap.ypsilon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		048053AC2115DADB00BECF17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3503D32AE473A92F1E7A5CBB /* Pods-APMapDirection.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GL2KD24SJM;
+				INFOPLIST_FILE = APMapDirection/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ap.ypsilon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		048053AE2115DADB00BECF17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9G97QLJWQ9;
+				INFOPLIST_FILE = APMapDirectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Crucial.APMapDirectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APMapDirection.app/APMapDirection";
+			};
+			name = Debug;
+		};
+		048053AF2115DADB00BECF17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9G97QLJWQ9;
+				INFOPLIST_FILE = APMapDirectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Crucial.APMapDirectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APMapDirection.app/APMapDirection";
+			};
+			name = Release;
+		};
+		048053B12115DADB00BECF17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9G97QLJWQ9;
+				INFOPLIST_FILE = APMapDirectionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Crucial.APMapDirectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = APMapDirection;
+			};
+			name = Debug;
+		};
+		048053B22115DADB00BECF17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9G97QLJWQ9;
+				INFOPLIST_FILE = APMapDirectionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Crucial.APMapDirectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = APMapDirection;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0480537D2115DADB00BECF17 /* Build configuration list for PBXProject "APMapDirection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048053A82115DADB00BECF17 /* Debug */,
+				048053A92115DADB00BECF17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048053AA2115DADB00BECF17 /* Build configuration list for PBXNativeTarget "APMapDirection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048053AB2115DADB00BECF17 /* Debug */,
+				048053AC2115DADB00BECF17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048053AD2115DADB00BECF17 /* Build configuration list for PBXNativeTarget "APMapDirectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048053AE2115DADB00BECF17 /* Debug */,
+				048053AF2115DADB00BECF17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048053B02115DADB00BECF17 /* Build configuration list for PBXNativeTarget "APMapDirectionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048053B12115DADB00BECF17 /* Debug */,
+				048053B22115DADB00BECF17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0480537A2115DADB00BECF17 /* Project object */;
+}
